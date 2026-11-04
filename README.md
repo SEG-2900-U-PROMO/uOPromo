@@ -1,4 +1,4 @@
-# uoPromo
+# uOPromo
 # Student Number: 
 # Sarah Lim-Baig: 300432836
 # Noah Boulet: 300545446
