@@ -1,10 +1,14 @@
 Overall Look and Feel of uoPromo
 ================================
-A user-friendly, minimalist look focused on conveying a sense of trust and prosperity through the use of a balanced colour palette composed of varying tones of green and gold, high-quality imagery, and captivating visual effects. High visual contrast, neutral typography, and an uncluttered layout further contribute to facilitating user experience.
+A user-friendly, minimalist look focused on conveying a sense of trust and prosperity through the use 
+of a balanced colour palette composed of varying tones of green and gold, high-quality imagery, and 
+captivating visual effects. High visual contrast, neutral typography, and an uncluttered layout further 
+contribute to facilitating user experience.
 
 Colours
 =======
-The colour palette used for uoPromo reinforces trustworthiness while reflecting the platform’s purpose of helping users save significant amounts of money on everyday essentials.
+The colour palette used for uoPromo reinforces trustworthiness while reflecting the platform’s purpose 
+of helping users save significant amounts of money on everyday essentials.
 
 These are our colour swatches:
 #143D27 (Forest)
@@ -18,24 +22,40 @@ These are our colour swatches:
 
 Layout
 ======
-To maintain organization, boxes arranged in a grid fashion will be frequently used to store information in an easy-to-read manner rather than using lengthy paragraphs. Additionally, the navigation bar and a clickable uoPromo logo leading back to the home page will be placed at the top of every page, facilitating navigation between different pages and the website will be created to adapt to different screen sizes and devices.
+To maintain organization, boxes arranged in a grid fashion will be frequently used to store information 
+in an easy-to-read manner rather than using lengthy paragraphs. Additionally, the navigation bar and a 
+clickable uoPromo logo leading back to the home page will be placed at the top of every page, facilitating 
+navigation between different pages and the website will be created to adapt to different screen sizes 
+and devices.
 
 Iconography
 ===========
-Icons will be used to establish a fair balance between words and images, making our website more visually-appealing to users. They will mostly be used in the navigation bar and will accompany larger sections of text.
+Icons will be used to establish a fair balance between words and images, making our website more 
+visually-appealing to users. They will mostly be used in the navigation bar and will accompany larger 
+sections of text.
 
 Typography
 ==========
-A professional feel will be further evoked by our website by using the Helvetica font family as the primary font. Helvetica (Arial, Sans-Serif) is a readable and accessible font, making it suitable for all users. A heavier-weighted font will be used for the headings and titles, and a regular weight will be used for body text.
+A professional feel will be further evoked by our website by using the Helvetica font family as the 
+primary font. Helvetica (Arial, Sans-Serif) is a readable and accessible font, making it suitable for 
+all users. A heavier-weighted font will be used for the headings and titles, and a regular weight will 
+be used for body text.
 
 Links
 =====
-When hovered over, the background colour of the element containing the link will change to a slightly darker colour, increasing interactivity with the user. However, once a link has been clicked on, it will remain as its usual colour.
+When hovered over, the background colour of the element containing the link will change to a slightly 
+darker colour, increasing interactivity with the user. However, once a link has been clicked on, it will 
+remain as its usual colour.
 
 Buttons
 =======
-All buttons will have rounded sides and hover effects, causing the border of the button to change to a gold tone and its background to change colour when hovered over. Furthermore, all buttons will be of identical sizes and colours, ensuring consistency is maintained throughout the website. 
+All buttons will have rounded sides and hover effects, causing the border of the button to change to a 
+gold tone and its background to change colour when hovered over. Furthermore, all buttons will be of 
+identical sizes and colours, ensuring consistency is maintained throughout the website. 
 
 Accessibility
 =============
-Our website layout will follow several accessibility standards to ensure that all users are able to comfortably navigate it. All text components will be high contrast with the background colour to facilitate readability for visually-impaired users. In addition, all images will be accompanied by appropriate alt text.
+Our website layout will follow several accessibility standards to ensure that all users are able to 
+comfortably navigate it. All text components will be high contrast with the background colour to 
+facilitate readability for visually-impaired users. In addition, all images will be accompanied by 
+appropriate alt text.

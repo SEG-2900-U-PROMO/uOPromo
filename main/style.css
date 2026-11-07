@@ -1,3 +1,33 @@
+/* All pages */
+html{
+  background-color: #F7F3E8;  
+}
+main{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
 /* Homepage */
 header{
   display:flex;
@@ -12,7 +42,7 @@ header{
 
 .brand{
   display:flex;
-  align-center: center;
+  align-items: center;
   gap: 10px;
   text-decoration: none;
   font-size: 27px;
@@ -85,22 +115,116 @@ header nav a[href="index.html"]{
   }
 }
   
-
-
-
 /* Pricing Page */
-html{
-background-color: #F7F3E8  
+.pricing-hero{
+  justify-content: center;
+  text-align: center;
 }
+/* Student pricing box */
+.student-pricing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.student-plan{
+  background-color: #2E7D4F;
+  color: #F7F3E8;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+.student-plan:hover{
+  background-color: #1F5B3A;
+  transition-duration: 0.4s;
+}
+.plan-icon{
+  font-size: 30px;
+}
+li{
+  text-align: left;
+}
+.pricing-btnstudent-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #F7F3E8;
+  background-color: #143D27;
+  border-radius: 10px;
+  padding: 5px;
+}
+.pricing-btnstudent-btn:hover{
+  border: 1.5px solid #C8941A;
+  transform: rotate(-5deg) scale(1.1);
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+  transition-duration: 0.4s;
+}
+
+/* Business pricing */
+.business-pricing{
+  justify-content: center;
+  align-items: center;
+}
+.pricing-heading{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* Business pricing grid layout */
+.pricing-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  color: #F7F3E8;
+}
+/* Bronze pricing card */
+.pricing-cardbronze{
+  background-color: #2E7D4F;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pricing-cardbronze:hover{
+  background-color: #1F5B3A;
+  transition-duration: 0.4s;
+}
+/* Silver pricing card */
+.pricing-cardsilver{
+  background-color: #2E7D4F;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pricing-cardsilver:hover{
+  background-color: #1F5B3A;
+  transition-duration: 0.4s;
+}
+/* Gold pricing card */
+.pricing-cardgold{
+  background-color: #2E7D4F;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pricing-cardgold:hover{
+  background-color: #1F5B3A;
+  transition-duration: 0.4s;
+}
+
 /* Product Page */
-html{
-background-color: #F7F3E8  
-}
+
 /* Meet the Team */
-html{
-background-color: #F7F3E8  
-}
+
 /* Features Page */
-html{
-background-color: #F7F3E8  
+.discover{
+  justify-content: left;
+  text-align: center;
 }
+.box1 {
+  background-color:#2E7D4F;
+  min-height: 80px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+
