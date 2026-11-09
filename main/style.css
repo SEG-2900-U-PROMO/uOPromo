@@ -99,6 +99,123 @@ header nav a[href="index.html"]{
   color:#ffffff;
 }
 
+.hero{
+  position: relative;
+  min-height: 480px;
+  overflow: hidden;
+  border-radius: 14px;
+  background-color: #35433B;
+}
+
+.carousel-slide{
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.carousel-slide.active{
+  opacity: 1;
+}
+
+.carousel-slide::after{
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(53, 67, 59, 0.62), rgba(53, 67, 59, 0.12));
+  content: "";
+}
+
+.carousel-slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: min(90%, 700px);
+  color: #F7F3E8;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.hero-content h1{
+  margin-bottom: 12px;
+  font-size: clamp(38px, 8vw, 72px);
+  letter-spacing: 4px;
+}
+
+.hero-content p{
+  margin: 0;
+  font-size: clamp(18px, 3vw, 28px);
+}
+
+.carousel-control{
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background-color: rgba(247, 243, 232, 0.85);
+  color: #143D27;
+  cursor: pointer;
+  font-size: 28px;
+  line-height: 1;
+  transform: translateY(-50%);
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.carousel-control:hover,
+.carousel-control:focus-visible{
+  outline: 3px solid #F7F3E8;
+}
+
+.carousel-control:hover{
+  transform: translateY(-50%) scale(1.08);
+}
+
+.carousel-control.prev{
+  left: 20px;
+}
+
+.carousel-control.next{
+  right: 20px;
+}
+
+.carousel-indicators{
+  position: absolute;
+  bottom: 22px;
+  left: 50%;
+  z-index: 2;
+  display: flex;
+  gap: 10px;
+  transform: translateX(-50%);
+}
+
+.carousel-indicators button{
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  border: 2px solid #F7F3E8;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.carousel-indicators button.active{
+  background-color: #E0B43A;
+}
+
+.carousel-indicators button:focus-visible{
+  outline: 3px solid #F7F3E8;
+  outline-offset: 3px;
+}
+
 @media (max-width:600px) {
   header{
     flex-direction: column;
@@ -119,6 +236,24 @@ header nav a[href="index.html"]{
   header nav a{
     font-size: 14px;
     padding: 8px 10px;
+  }
+
+  .hero{
+    min-height: 360px;
+  }
+
+  .carousel-control{
+    width: 38px;
+    height: 38px;
+    font-size: 22px;
+  }
+
+  .carousel-control.prev{
+    left: 12px;
+  }
+
+  .carousel-control.next{
+    right: 12px;
   }
 }
   
