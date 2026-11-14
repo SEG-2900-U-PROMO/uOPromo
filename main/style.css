@@ -44,6 +44,7 @@ a{
 hr{
   color: black;
 }
+/* Footer */
 footer{
   background-color: #8DB596;
   align-items: center;
@@ -56,6 +57,15 @@ footer{
 .footer-section{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+.pricing-note{
+  justify-content: center;
+  align-items: center;
+  align-self: left
+}
+.nav-footer{
+  justify-self: end;
+  margin-right: 40px;
 }
 
 /* Homepage */
@@ -361,17 +371,6 @@ li{
 .pricing-card:hover{
   transform: translateY(-5px);
   box-shadow: 0 10px 24px rgba(20, 61, 39, 0.18);
-}
-
-/* Footer */
-.pricing-note{
-  justify-content: center;
-  align-items: center;
-  align-self: left
-}
-.nav-footer{
-  justify-self: end;
-  margin-right: 20px;
 }
 
 /* Product Page */
