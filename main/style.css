@@ -69,6 +69,19 @@ footer{
   margin-right: 60px;
   color: #F7F3E8;
 }
+.footer-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #F7F3E8;
+  background-color: #2E7D4F;
+  border-radius: 10px;
+  padding: 5px;
+}
+.footer-btn:hover{
+  border: 1.5px solid #C8941A;
+  transition-duration: 0.4s;
+  transform: translateY(-5px);
+}
 
 /* Homepage */
 header{
@@ -139,6 +152,7 @@ header nav a[href="index.html"]{
   overflow: hidden;
   border-radius: 14px;
   background-color: #35433B;
+  margin-top: 20px;
 }
 
 .carousel-slide{
