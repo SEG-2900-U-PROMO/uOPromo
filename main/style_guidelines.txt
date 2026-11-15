@@ -1,4 +1,4 @@
-Overall Look and Feel of uoPromo
+Overall Look and Feel of uOPromo
 ================================
 A user-friendly, minimalist look focused on conveying a sense of trust and prosperity through the use 
 of a balanced colour palette composed of varying tones of green and gold, high-quality imagery, and 
@@ -7,7 +7,7 @@ contribute to facilitating user experience.
 
 Colours
 =======
-The colour palette used for uoPromo reinforces trustworthiness while reflecting the platform’s purpose 
+The colour palette used for uOPromo reinforces trustworthiness while reflecting the platform’s purpose 
 of helping users save significant amounts of money on everyday essentials.
 
 These are our colour swatches:
@@ -24,7 +24,7 @@ Layout
 ======
 To maintain organization, boxes arranged in a grid fashion will be frequently used to store information 
 in an easy-to-read manner rather than using lengthy paragraphs. Additionally, the navigation bar and a 
-clickable uoPromo logo leading back to the home page will be placed at the top of every page, facilitating 
+clickable uOPromo logo leading back to the home page will be placed at the top of every page, facilitating 
 navigation between different pages and the website will be created to adapt to different screen sizes 
 and devices.
 
