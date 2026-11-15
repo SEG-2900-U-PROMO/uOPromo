@@ -8,16 +8,18 @@ input,
 select,
 textarea{
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 main{
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 h1{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 45px;
   text-align: center;
+  margin-top: 10px;
 }
 h2{
   font-family: Arial, Helvetica, sans-serif;
@@ -124,8 +126,7 @@ header nav a{
 }
 
 header nav a:hover{
-  background-color: #8DB596;
-  color: #172554;
+  background-color: #C8941A;
 }
 
 header nav a[href="index.html"]{
@@ -299,7 +300,7 @@ header nav a[href="index.html"]{
   font-size: 28px;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
-  color: #E0B43A;
+  color: #C8941A;
 }
 /* Student pricing box */
 .student-pricing{
@@ -309,8 +310,9 @@ header nav a[href="index.html"]{
   text-align: center;
 }
 .student-plan{
-  background-color: #2E7D4F;
-  color: #F7F3E8;
+  background-color: #DCEBDD;
+  border: 1px solid #8DB596;
+  color: black;
   border-radius: 10px;
   padding: 15px;
   margin: 10px;
@@ -337,7 +339,6 @@ li{
 }
 .pricing-btn:hover{
   border: 1.5px solid #C8941A;
-  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
   transition-duration: 0.4s;
   transform: translateY(-5px);
 }
@@ -357,12 +358,13 @@ li{
 .pricing-grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  color: #F7F3E8;
+  gap: 35px;
+  color: black;
 }
 /* Pricing cards */
 .pricing-card{
-  background-color: #2E7D4F;
+  background-color: #DCEBDD;
+  border: 1px solid #8DB596;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
