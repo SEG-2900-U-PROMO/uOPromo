@@ -576,7 +576,33 @@ li{
 }
 .box1 {
   background-color:#2E7D4F;
-  min-height: 80px;
+  min-height: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.share{
+  justify-content: center;
+  text-align: center;
+}
+
+.box2{
+  background-color: #2E7D4F;
+  min-height: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.save{
+  justify-content: right;
+  text-align: center;
+}
+
+.box3{
+  background-color: #2E7D4F;
+  min-height: 40px;
   padding: 10px;
   display: flex;
   align-items: flex-start;
