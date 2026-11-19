@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
   const carousel = document.querySelector(".hero");
 
   if (!carousel) {
@@ -80,4 +80,39 @@ document.addEventListener("DOMContentLoaded", () => {
 
   showSlide(currentIndex);
   startAutoPlay();
-});
+});*/
+
+// First slide
+let slideIndex = 0;
+showSlides();
+
+//Next/previous buttons
+function plusSlides(n){
+  showSlides(slideIndex += n);
+}
+
+// Clicking on dots to switch slides
+function currentSlide(n){
+  showSlides(slideIndex = n)
+  
+}
+
+// Dots and next/prev buttons still need to be calibrated
+
+function showSlides(){
+  let i;
+  let slides = document.getElementsByClassName("slide");
+  // Initially hides all the slides
+  for (i = 0; i < slides.length; i++){
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+
+  // Once the end of the carousel is reached, go back to slide 1
+  if (slideIndex > slides.length){
+    slideIndex = 1;
+  }
+  // Displays the current slide
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 7000); // Change image every 7 seconds
+}

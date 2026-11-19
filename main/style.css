@@ -146,7 +146,8 @@ header nav a[href="index.html"]{
   color:#ffffff;
 }
 
-.hero{
+/* Carousel */
+/*.hero{
   position: relative;
   min-height: 480px;
   overflow: hidden;
@@ -303,6 +304,61 @@ header nav a[href="index.html"]{
   .carousel-control.next{
     right: 12px;
   }
+}*/
+.slide-container{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Hiding the next and previous slides */
+.slide{
+  display: none;
+}
+/* Next and previous buttons */
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #143D27;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Placing the position of the next button */
+.next{
+  right: 0;
+}
+.prev:hover, .next:hover{
+  border: 1.5px solid #C8941A;
+  transition-duration: 0.4s;
+  transform: translateY(-5px);
+}
+/* Dots */
+.dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #E0B43A;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+  background-color: #C8941A;
+}
+/* Fading */
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
   
 /* Pricing Page */
