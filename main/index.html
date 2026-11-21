@@ -11,12 +11,20 @@
 <body>
     <header>
       <a class="brand" href="index.html" aria-label="uOPromo home">
-      <img src="assets/logo/uopromo_logo_coin_hero.png" alt="uOPromo Logo" class="brand-logo">
+      <img src="assets/Logo/uopromo_logo_coin_hero.png" alt="uOPromo Logo" class="brand-logo">
       <span>uO<span class="brand-accent">Promo</span></span>
       </a>
       <nav aria-label="Main navigation bar">
         <a href="index.html">Home</a>
-        <a href="product.html">Product</a>
+        <div class="dropdown">
+          <a class="drop-button">Product
+            <i class="btn"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="share.html">Share</a>
+            <a href="discover.html">Discover</a>
+          </div>
+        </div>
         <a href="pricing.html">Pricing</a>
         <a href="team.html">Team</a>
         <a href="features.html">Features</a>
@@ -25,45 +33,61 @@
     </header>
 
 <main>
-    <!-- Carousel-slides -->
-<section class="hero" id="hero">
-       
-      <div class="carousel-slide active">
-        <img src="assets/images/restaurant.jpg" alt="Restaurant deals for students">
-      </div>
+<!-- Carousel-slides -->
+<div class="content-wrapper">
+  <div class="slide-container">
 
-        <div class="carousel-slide">
-        <img src="assets/images/clothes.jpg" alt="Clothing deals for students">
-      </div>
+  <div class="slide fade">
+    <img src="assets/Images/restaurant.jpg" alt="Restaurant deals for students" style="width:100%; opacity: 40%;">
+    <!-- Text on carousel -->
+    <div class="hero-content">
+      <h1 style="font-size: 80px;">uOPromo</h1>
+      <p style="font-size: 25px;">Student life. Smarter spending.</p>
+    </div>
+  </div>
+  <div class="slide fade">
+    <img src="assets/Images/clothes.jpg" alt="Clothing deals for students" style="width:100%; opacity: 40%;">
+    <!-- Text on carousel -->
+    <div class="hero-content">
+      <h1 style="font-size: 80px;">uOPromo</h1>
+      <p style="font-size: 25px;">Student life. Smarter spending.</p>
+    </div>
+  </div>
+  <div class="slide fade">
+    <img src="assets/Images/bookstore.jpg" alt="Books deals for students" style="width:100%; opacity: 40%;">
+    <!-- Text on carousel -->
+    <div class="hero-content">
+      <h1 style="font-size: 80px;">uOPromo</h1>
+      <p style="font-size: 25px;">Student life. Smarter spending.</p>
+    </div>
+  </div>
+  <div class="slide fade">
+    <img src="assets/Images/tech.jpg" alt="Technology deals for students" style="width: 100%; opacity: 40%;">
+    <!-- Text on carousel -->
+    <div class="hero-content">
+      <h1 style="font-size: 80px;">uOPromo</h1>
+      <p style="font-size: 25px;">Student life. Smarter spending.</p>
+    </div>
+  </div>
+  <div class="slide fade">
+    <img src="assets/Images/images.jpg" alt="Student offers" style="width:100%; opacity: 40%;">
+    <!-- Text on carousel -->
+    <div class="hero-content">
+      <h1 style="font-size: 80px;">uOPromo</h1>
+      <p style="font-size: 25px;">Student life. Smarter spending.</p>
+    </div>
+  </div>
+</div>
+</div>
 
-       <div class="carousel-slide">
-        <img src="assets/images/bookstore.jpg" alt="Books deals for students">
-      </div>
-
-       <div class="carousel-slide">
-        <img src="assets/images/tech.jpg" alt="Technology deals for students">
-      </div>
-
-      <div class="carousel-slide">
-        <img src="assets/images/images.jpg" alt="Student offers">
-      </div>
-
-       <div class="hero-content">
-         <h1>uOPromo</h1>
-         <p>Student life. Smarter spending</p>
-       </div>
-
-      <button class="carousel-control prev" type="button" aria-label="Previous image">&#10094;</button>
-      <button class="carousel-control next" type="button" aria-label="Next image">&#10095;</button>
-
-       <div class="carousel-indicators">
-         <button class="active" aria-label="Show image 1"></button>
-         <button aria-label="Show image 2"></button>
-         <button aria-label="Show image 3"></button>
-         <button aria-label="Show image 4"></button>
-         <button aria-label="Show image 5"></button>
-       </div>      
-</section>
+<!-- Dots under carousel -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
 
       <!-- Card-service & button -->
 <section class="services" id="features">
@@ -77,34 +101,34 @@
 
           <!-- Card 1  -->
         <article class="service-card">
-          <img src="assets/images/restaurant.jpg" alt="Restaurant deals">
+          <img src="assets/Images/restaurant.jpg" alt="Restaurant deals">
 
           <div class="card-content">
             <h3> Discover Deals</h3>
             <p>Find Discounts and special offers on products and services</p>
-            <a href="product.html" class="explore-btn">Explore More</a>
+            <a href="discover.html" class="explore-btn">Explore More</a>
           </div>
         </article>
 
           <!-- Card 2 -->
           <article class="service-card">
-          <img src="assets/images/bookstore.jpg" alt="Bookstore deals">
+          <img src="assets/Images/bookstore.jpg" alt="Bookstore deals">
 
           <div class="card-content">
             <h3> Share Deals</h3>
             <p>Share valuable promotions, earn and help other students save money.</p>
-            <a href="product.html" class="explore-btn">Explore More</a>
+            <a href="share.html" class="explore-btn">Explore More</a>
           </div>
         </article>
 
           <!-- Card 3 -->
           <article class="service-card">
-          <img src="assets/images/tech.jpg" alt="Technology deals">
+          <img src="assets/Images/tech.jpg" alt="Technology deals">
 
           <div class="card-content">
             <h3> Student Community</h3>
             <p>Connect with students and discover useful opportunities.</p>
-            <a href="product.html" class="explore-btn">Explore More</a>
+            <a href="features.html" class="explore-btn">Explore More</a>
           </div>
         </article>     
 </section>
@@ -137,7 +161,7 @@
     </section>
     <section class="nav-footer" aria-label="Footer navigation links">
       <p><a href="index.html">Home</a></p>
-      <p><a href="product.html">Product</a></p>
+      <p><a href="discover.html">Discover</a></p>
       <p><a href="pricing.html">Pricing</a></p>
       <p><a href="team.html">Team</a></p>
       <p><a href="features.html">Features</a> </p>
