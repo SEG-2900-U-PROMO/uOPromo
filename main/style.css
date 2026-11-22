@@ -1,6 +1,7 @@
 /* All pages */
 html{
   background-color: #F7F3E8;  
+  scroll-behavior: smooth;
 }
 body,
 button,
@@ -9,6 +10,9 @@ select,
 textarea{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+}
+body{
+  animation: pageLoadFade 0.8s ease-out both;
 }
 *{
   box-sizing: border-box;
@@ -45,6 +49,30 @@ a{
   font-weight: 500;
   font-size: 16px;
   color: #F7F3E8;
+}
+/* Fade in effect as scrolling down */
+.fade-in{
+  animation: fadeIn linear both;
+  animation-timeline: view();
+  animation-range: entry 0% entry 100%;
+}
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+    translate: 0 20px;
+  }
+  to{
+    opacity: 1;
+    translate: 0;
+  }
+}
+@keyframes pageLoadFade{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 
 /* Footer */
@@ -212,7 +240,13 @@ header nav a:hover{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  position: relative;
+  position: relative;  
+}
+.slide-container img{
+  transition: transform 0.4s ease;
+}
+.slide-container:hover img{
+  transform: scale(1.08);
 }
 .hero-content{
   position: absolute;
