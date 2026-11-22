@@ -66,6 +66,7 @@ a{
     translate: 0;
   }
 }
+/* Fade in when page loads */
 @keyframes pageLoadFade{
   from{
     opacity: 0;
