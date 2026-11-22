@@ -146,7 +146,7 @@ header{
 }
 
 .brand-logo{
-  width: 80px;
+  width: 300px;
   height: 60px;
   object-fit: contain;
   transition: transform 0.3s ease;
