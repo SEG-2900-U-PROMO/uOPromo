@@ -28,93 +28,63 @@
         <a href="pricing.html">Pricing</a>
         <a href="team.html">Team</a>
         <a href="features.html">Features</a>
-        
       </nav>
     </header>
-  
+
     <!--Discover-->
   <main>
-    <section class="discover-hero">
-      <div class="discover-content">
-        <p class="discover-label">STUDENTS DEALS. SMARTER SAVINGS</p>
-        <h1>Discover Deals. <span>Save More.</span></h1>
-        <p>Explore exciting discounts, special offers and promotions from businesses that help students get more for less</p>
-
-      <form class="deal-search" id="deal-search">
-        <label class="visually-hidden" for="search-input">Search deals</label>
-        <input type="search" id="search-input" placeholder="Search deals or categories....">
-      <button type="submit">Search</button>
-      </form>
-      </div>
+    <section class="pricing-hero">
+      <p class="team-label" style="margin-top: 50px;">STUDENTS DEALS. SMARTER SAVINGS</p>
+      <h1>Discover</h1>
+      <h2>Find Student <span style="color:#C8941A;">Deals</span></h2>
+      <p>
+        Explore discounts, special offers and promotions from businesses that help students get more for less.
+      </p>
     </section>
 
-    <!-- Deal Categories -->
-    <section class="deal-categories">
-      <h2>Explore Categories</h2>
-      <p>Find offers that match your needs.</p>
-
-      <div class="category-list">
-        <button type="button" class="category-btn active" data-category="all">All Deals</button>
-        <button type="button" class="category-btn" data-category="food">Food and Restaurants</button>
-        <button type="button" class="category-btn" data-category="fashion">Clothing and Shoes</button>
-        <button type="button" class="category-btn" data-category="technology">Technology</button>
-        <button type="button" class="category-btn" data-category="education">Textooks</button>
-      </div>   
-    </section>
-
-    <!-- Product and deal cards -->
-    <section class="deals-section">
-      <div class="deals-heading">
-        <h2>Featured Deals</h2>
-        <p>Explore offers from different categories.</p>
-      </div>
-
-      <div class="deal-grid" id="deal-grid">
-
-      <article class="deal-card" data-category="food">
-        <img src="assets/Images/restaurant.jpg" alt="Restaurant dining">
-        <div class="deal-info">
-          <span class="deal-category"> Food & Restaurants</span>
-          <h3>Restuarant Specials</h3>
-          <p>Discover dining promotions and food offers.</p>
-          <a href="#" class="deal-btn"> View Deal</a>
+    <!-- Category dropdown -->
+    <form>
+      <section class="student-pricing">
+        <div class="student-plan" style="width: 30%;">
+          <label for="category"><p>Choose a category:</p></label>
+          <select class="form-text" id="category" name="category">
+            <option value="housing">Housing</option>
+            <option value="groceries" selected>Groceries</option>
+            <option value="clothing">Clothing</option>
+            <option value="textbooks">Textbooks</option>
+          </select>
         </div>
-      </article>
+      </section>
+    </form>
 
-      <article class="deal-card" data-category="fashion">
-        <img src="assets/Images/clothes.jpg" alt="Clothing and Fashion">
-        <div class="deal-info">
-          <span class="deal-category"> Fashion</span>
-          <h3>Fashion finds</h3>
-          <p>Explore clothing deals and style that suit your budget.</p>
-          <a href="#" class="deal-btn"> View Deal</a>
-        </div>
-      </article>
+    <!-- Deal cards -->
+    <section class="business-pricing">
+      <h2>Groceries</h2>
 
-      <article class="deal-card" data-category="technology">
-        <img src="assets/Images/tech.jpg" alt="Technology products">
-        <div class="deal-info">
-          <span class="deal-category"> Technology</span>
-          <h3>Tech Offers</h3>
-          <p>Look for deals on useful technology products.</p>
-          <a href="#" class="deal-btn"> View Deal</a>
-        </div>
-      </article>
+      <div class="pricing-grid">
 
-      <article class="deal-card" data-category="education">
-        <img src="assets/Images/bookstore.jpg" alt="Bookstore">
-        <div class="deal-info">
-          <span class="deal-category">Books and Education</span>
-          <h3>Restuarant Specials</h3>
-          <p>Explore books and learning resources.</p>
-          <a href="#" class="deal-btn"> View Deal</a>
-        </div>
-      </article>
+        <article class="pricing-card">
+          <h3>Rideau Fresh Market</h3>
+          <p>Date: Nov 24 - Dec 20, 2026</p>
+          <p>Location: Rideau St, Ottawa</p>
+          <p>Deal: 15% off your total grocery bill with a valid student ID</p>
+        </article>
+
+        <article class="pricing-card">
+          <h3>Sandy Hill Co-op</h3>
+          <p>Date: Every Tuesday</p>
+          <p>Location: Laurier Ave E, Ottawa</p>
+          <p>Deal: 10% off all fresh produce and a free reusable bag with $25 or more</p>
+        </article>
+
+        <article class="pricing-card">
+          <h3>Byward Bulk Foods</h3>
+          <p>Date: Until Jan 31, 2027</p>
+          <p>Location: York St, Ottawa</p>
+          <p>Deal: Buy one, get one half off on snacks and pantry staples</p>
+        </article>
 
       </div>
-
-      <p id="no-deals" class="no-deals" hidden> No matching deals found. Try another search. </p>
-        
     </section>
   </main>
 
@@ -137,8 +107,6 @@
     <hr>
     <p style="color: #F7F3E8;">&copy; 2026 uOPromo. All rights reserved.</p>
   </footer>
-    
-    <!--Share-->
 
 <script src="script.js"></script>
 </body>
