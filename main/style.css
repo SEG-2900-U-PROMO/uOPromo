@@ -75,16 +75,20 @@ footer{
 }
 .footer-btn{
   display: inline-block;
-  text-decoration: none;
   color: #F7F3E8;
-  background-color: #2E7D4F;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+  background-color: #1F5B3A;
   border-radius: 10px;
-  padding: 5px;
+  padding: 15px;
 }
 .footer-btn:hover{
-  border: 1.5px solid #C8941A;
+  background-color: #143D27;
+  transform: translateY(-2px);
+  border: 1.5px solid #E0B43A;
   transition-duration: 0.4s;
-  transform: translateY(-5px);
+  cursor: pointer;
 }
 
 /* Homepage */
@@ -312,7 +316,7 @@ header nav a:hover{
 
 .explore-btn{
   margin-top: auto;
-  padding: 10px 16px;
+  padding: 15px;
   border-radius: 8px;
   background-color: #1F5B3A;
   color: #F7F3E8;
@@ -321,8 +325,10 @@ header nav a:hover{
 }
 
 .explore-btn:hover{
+  border: 1.5px solid #E0B43A;
   background-color: #143D27;
   transform: translateY(-2px);
+  cursor: pointer;
 }
 
 .review-card-container{
@@ -460,17 +466,20 @@ li{
 }
 .pricing-btn{
   display: inline-block;
-  text-decoration: none;
   color: #F7F3E8;
-  background-color: #143D27;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+  background-color: #1F5B3A;
   border-radius: 10px;
-  padding: 5px;
+  padding: 15px;
   font-size: 16px;
 }
 .pricing-btn:hover{
-  border: 1.5px solid #C8941A;
+  background-color: #143D27;
+  transform: translateY(-2px);
+  border: 1.5px solid #E0B43A;
   transition-duration: 0.4s;
-  transform: translateY(-5px);
   cursor: pointer;
 }
 
@@ -628,17 +637,19 @@ li{
 
 .team-github{
   margin-top: auto;
-  padding: 9px 18px;
+  padding: 15px;
 }
 
 .team-btn{
-  padding: 12px 22px;
+  padding: 15px;
 }
 
 .team-github:hover,
 .team-btn:hover{
   background-color: #143D27;
   transform: translateY(-2px);
+  border: 1.5px solid #E0B43A;
+  cursor: pointer;
 }
 
 .team-mission{
@@ -728,17 +739,19 @@ li{
 /* Share */
 input[type="file"]::file-selector-button{
   display: inline-block;
-  text-decoration: none;
+  border-radius: 8px;
+  background-color: #1F5B3A;
   color: #F7F3E8;
-  background-color: #143D27;
-  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.25s ease, transform 0.25s ease;
   padding: 15px;
   font-size: 16px;
 }
 input[type="file"]::file-selector-button:hover {
-  border: 1.5px solid #C8941A;
-  transition-duration: 0.4s;
-  transform: translateY(-5px);
+  background-color: #143D27;
+  transform: translateY(-2px);
+  border: 1.5px solid #E0B43A;
   cursor: pointer;
 }
 .form-text{
