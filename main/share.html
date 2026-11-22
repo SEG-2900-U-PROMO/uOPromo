@@ -34,88 +34,38 @@
   
     <!--Share-->
   <main>
-    <section class="discover-hero">
-      <div class="discover-content">
-        <p class="discover-label">STUDENTS DEALS. SMARTER SAVINGS</p>
-        <h1>Discover Deals. <span>Save More.</span></h1>
-        <p>Explore exciting discounts, special offers and promotions from businesses that help students get more for less</p>
+    <section class="pricing-hero">
+        <p class="team-label" style="margin-top: 50px;">STUDENTS DEALS. SMARTER SAVINGS</p>
+        <h1>Sharing</h1>
+        <h2>Share <span style="color:#C8941A;">Deals</span></h2>
+        <p>
+          Contribute to uOPromo's mission by sharing deals and helping other students find exciting deals 
+          and promotions.
+        </p>
+      </section>
 
-      <form class="deal-search" id="deal-search">
-        <label class="visually-hidden" for="search-input">Search deals</label>
-        <input type="search" id="search-input" placeholder="Search deals or categories....">
-      <button type="submit">Search</button>
-      </form>
-      </div>
-    </section>
-
-    <!-- Deal Categories -->
-    <section class="deal-categories">
-      <h2>Explore Categories</h2>
-      <p>Find offers that match your needs.</p>
-
-      <div class="category-list">
-        <button type="button" class="category-btn active" data-category="all">All Deals</button>
-        <button type="button" class="category-btn" data-category="food">Food and Restaurants</button>
-        <button type="button" class="category-btn" data-category="fashion">Clothing and Shoes</button>
-        <button type="button" class="category-btn" data-category="technology">Technology</button>
-        <button type="button" class="category-btn" data-category="education">Textooks</button>
-      </div>   
-    </section>
-
-    <!-- Product and deal cards -->
-    <section class="deals-section">
-      <div class="deals-heading">
-        <h2>Featured Deals</h2>
-        <p>Explore offers from different categories.</p>
-      </div>
-
-      <div class="deal-grid" id="deal-grid">
-
-      <article class="deal-card" data-category="food">
-        <img src="assets/Images/restaurant.jpg" alt="Restaurant dining">
-        <div class="deal-info">
-          <span class="deal-category"> Food & Restaurants</span>
-          <h3>Restuarant Specials</h3>
-          <p>Discover dining promotions and food offers.</p>
-          <a href="#" class="deal-btn"> View Deal</a>
-        </div>
-      </article>
-
-      <article class="deal-card" data-category="fashion">
-        <img src="assets/Images/clothes.jpg" alt="Clothing and Fashion">
-        <div class="deal-info">
-          <span class="deal-category"> Fashion</span>
-          <h3>Fashion finds</h3>
-          <p>Explore clothing deals and style that suit your budget.</p>
-          <a href="#" class="deal-btn"> View Deal</a>
-        </div>
-      </article>
-
-      <article class="deal-card" data-category="technology">
-        <img src="assets/Images/tech.jpg" alt="Technology products">
-        <div class="deal-info">
-          <span class="deal-category"> Technology</span>
-          <h3>Tech Offers</h3>
-          <p>Look for deals on useful technology products.</p>
-          <a href="#" class="deal-btn"> View Deal</a>
-        </div>
-      </article>
-
-      <article class="deal-card" data-category="education">
-        <img src="assets/Images/bookstore.jpg" alt="Bookstore">
-        <div class="deal-info">
-          <span class="deal-category">Books and Education</span>
-          <h3>Restuarant Specials</h3>
-          <p>Explore books and learning resources.</p>
-          <a href="#" class="deal-btn"> View Deal</a>
-        </div>
-      </article>
-
-      </div>
-
-      <p id="no-deals" class="no-deals" hidden> No matching deals found. Try another search. </p>
-        
-    </section>
+      <!-- Form -->
+       <form>
+        <section class="student-pricing">
+          <div class="student-plan" style="width: 30%;">
+            <label for="comp-name"><p>Company Name:</p></label>
+            <input type="text" class="form-text" id="comp-name" name="comp-name"><br>
+            <label for="prod-name"><p>Product Name:</p></label>
+            <input type="text" class="form-text" id="prod-name" name="prod-name"><br>
+            <label for="deal-img"><p>Deal Image:</p></label>
+            <input type="file" id="deal-img" name="deal-img" accept="image/*"><br>
+            <label for="start-date"><p>Start Date:</p></label>
+            <input type="text" class="form-text" id="start-date" name="start-date"><br>
+            <label for="end-date"><p>End Date:</p></label>
+            <input type="text" class="form-text" id="end-date" name="end-date"><br>
+            <label for="og-price"><p>Original Price:</p></label>
+            <input type="text" class="form-text" id="og-price" name="og-price"><br>
+            <label for="disc-price"><p>Discounted Price:</p></label>
+            <input type="text" class="form-text" id="disc-price" name="disc-price"><br><br>
+            <input class="pricing-btn" style="padding: 15px;" type="submit" value="Submit">
+          </div>
+        </section>
+       </form>
   </main>
 
   <!-- Footer -->
@@ -137,8 +87,6 @@
     <hr>
     <p style="color: #F7F3E8;">&copy; 2026 uOPromo. All rights reserved.</p>
   </footer>
-    
-    <!--Share-->
 
 <script src="script.js"></script>
 </body>
