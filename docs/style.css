@@ -733,6 +733,27 @@ li{
 }
 
 /* Features Page */
+.feature-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #DCEBDD;
+  border: 1px solid #8DB596;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.feature-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(20, 61, 39, 0.18);
+}
+.feature-card p{
+  line-height: 1.5;
+}
+.feature-card .pricing-btn{
+  margin-top: auto;
+}
 .discover{
   justify-content: left;
   text-align: center;
